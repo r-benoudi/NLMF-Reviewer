@@ -1,0 +1,60 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-08-03 09:31:09",
+    "total_images": 0,
+    "total_time": 771.021782711,
+    "config": {
+      "POP_SIZE": 25,
+      "N_GEN": 100,
+      "CXPB": 0.7,
+      "MUTPB": 0.05,
+      "TOURNSIZE": 3,
+      "H_RANGE": [
+        0.001,
+        30.0
+      ],
+      "P_VALID": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21
+      ],
+      "N_VALID": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21
+      ],
+      "SIGMAS": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "SEED": 42,
+      "DEVICE": "CPU",
+      "COLOR": false,
+      "PLOT": true,
+      "RESULT_DIR": "./output_3"
+    },
+    "dependencies": {
+      "bm3d_available": true,
+      "piq_available": false
+    }
+  },
+  "results": []
+}
